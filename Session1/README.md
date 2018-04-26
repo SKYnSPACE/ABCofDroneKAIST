@@ -1,6 +1,7 @@
 # Session1 (26.APR.2018)
 
 ## Lecture Materials (by Taemin Shim)
+**Please refer to the slides in the Lecture folder.**
 
 ## Hands-on Materials (by Seongheon Lee)
 
