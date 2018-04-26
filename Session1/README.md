@@ -45,3 +45,4 @@ These videos will outline the basics of the Matlab environment.
 
 ### 2. Hardware Verifications
 **From this section, we can verify the normal operations of Arduino we'll use throughout the whole sessions.**
+**(MOVED TO THE NEXT SESSION DUE TO ARDUINO SUPPLY ISSUE)**
