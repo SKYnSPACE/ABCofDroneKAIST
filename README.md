@@ -5,7 +5,7 @@
 ## Session1 (26.APR.2018)
 Introduction to multi-copter UAVs.
 
-## Session2 (TBD)
+## Session2 (30.APR.2018)
 
 ## Session3 (TBD)
 
