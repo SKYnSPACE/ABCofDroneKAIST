@@ -6,8 +6,9 @@
 Introduction to multi-copter UAVs.
 
 ## Session2 (30.APR.2018)
+Understanding of the quadcopter dynamics and simulation.
 
-## Session3 (TBD)
+## Session3 (10.MAY.2018)
 
 ## Session4 (TBD)
 
