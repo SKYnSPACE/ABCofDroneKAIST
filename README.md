@@ -1,7 +1,7 @@
 # ABCofDroneKAIST
 **2018년 KAIST 항공우주공학과 학부생 단기강좌용으로 개설된 페이지 입니다.**
 
-![Flyer](https://github.com/skynspace/Images/flyer.jpg)
+![Flyer](https://github.com/skynspace/ABCofDroneKAIST/Images/flyer.jpg)
 
 ## Session1 (26.APR.2018)
 Introduction to multi-copter UAVs.
