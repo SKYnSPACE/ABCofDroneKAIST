@@ -44,7 +44,9 @@
 &nbsp;&nbsp; After you solve the three quizzes, run the file [main.m](https://github.com/SKYnSPACE/ABCofDroneKAIST/tree/master/Session2/Hands-on/MATLAB) to monitor the motion of a drone. If you done it correctly, you will see the drone falling while rotating like a pinwheel. In the session 3, you will figure out how to design a proper controller that can maneuver a drone at the desired state.
 
 #### 3.1. Quiz 1
-- Complete the velocity part of the state-space equation.
+```
+Complete the velocity part of the state-space equation.
+```
 
 &nbsp;&nbsp; We have built a state-space equation with the following 14 states:
 
@@ -56,7 +58,9 @@
 where A is a 13 by 13 matrix, B = 0, and U = 0 for today (no control inputs).
 
 #### 3.2. Quiz 2
-- Complete the accleration part of the state-space equation.
+```
+Complete the accleration part of the state-space equation.
+```
 
 &nbsp;&nbsp; Now we want to figure out the row number 4 to 6 of the following state space equation:
 
@@ -64,7 +68,9 @@ where A is a 13 by 13 matrix, B = 0, and U = 0 for today (no control inputs).
 where A is a 13 by 13 matrix, B = 0, and U = 0 for today (no control inputs).
 
 #### 3.3. Quiz 3
-- Describe a numerical integration method to figure out the next state
+```
+Describe a numerical integration method to figure out the next state
+```
 
 &nbsp;&nbsp; You can use the Euler method to update the next state:
 
