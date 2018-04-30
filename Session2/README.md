@@ -18,7 +18,7 @@
 ###############################
 ```
 
-### 1. Software Installations
+### 1. Arduino Software Installations
 **This section describes the preparation of software for the hands-on session.**
 
 #### 1.1. Install the Arduino Software on PCs
@@ -29,9 +29,12 @@ Please download and install the software depending on the operating system you u
 If you have a [Counterfeit Arduino](https://www.arduino.cc/en/Products/Counterfeit) you may need to install FTDI (CH340/CH341) USB to Serial interface.
 Please visit the following [Website](http://www.ftdichip.com/Drivers/VCP.htm) for the Virtual COM Port (VCP) drivers.
 
-### 2. Hardware Verifications
+### 2. Arduino Hardware Verifications
 **From this section, we can verify the normal operations of Arduino we'll use throughout the whole sessions.**
 
 #### 2.1. Wiring
 ![WiringDiagram](https://github.com/SKYnSPACE/ABCofDroneKAIST/blob/master/Session2/Hands-on/Images/ConnectionDiagram.png)
 
+#### 2.2. Testing
+
+### 3. MATLAB Simulation for a Quadcopter UAV
