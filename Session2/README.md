@@ -36,5 +36,17 @@ Please visit the following [Website](http://www.ftdichip.com/Drivers/VCP.htm) fo
 ![WiringDiagram](https://github.com/SKYnSPACE/ABCofDroneKAIST/blob/master/Session2/Hands-on/Images/ConnectionDiagram.png)
 
 #### 2.2. Testing
+Upload the code [ArduinoTest.ino](https://github.com/SKYnSPACE/ABCofDroneKAIST/tree/master/Session2/Hands-on/ARDUINO) to the ARDUINO board to test digital input/output, and serial communication.
 
 ### 3. MATLAB Simulation for a Quadcopter UAV
+**In this section, you can describe the kinematics of a quadcopter UAV by completing the following quizzes.**
+#### 3.1. Quiz 1
+- Complete the velocity part of the state-space equation.
+${dx\dt}= 
+#### 3.2. Quiz 2
+- Complete the accleration part of the state-space equation.
+#### 3.3. Quiz 3
+- Describe a numerical integration method to figure out the next state
+#### References
+- Michael, N., et al. (2010). "The grasp multiple micro-uav testbed." IEEE Robotics & Automation Magazine 17(3): 56-65.
+
