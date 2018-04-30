@@ -44,19 +44,22 @@ Quizzes are located in the class file [Drone.m](https://github.com/SKYnSPACE/ABC
 #### 3.1. Quiz 1
 - Complete the velocity part of the state-space equation.
 
-
 We have built a state-space equation with the following 14 states:
+
 ![states](https://latex.codecogs.com/gif.latex?X%20%3D%20%5Cbegin%7Bbmatrix%7Dx%20%5C%5C%20y%5C%5C%20z%5C%5C%20%5Cdot%7Bx%7D%5C%5C%20%5Cdot%7By%7D%5C%5C%20%5Cdot%7Bz%7D%5C%5C%20q_%7B1%7D%5C%5C%20q_%7B2%7D%5C%5C%20q_%7B3%7D%5C%5C%20q_%7B4%7D%5C%5C%20p%5C%5C%20q%5C%5C%20r%5Cend%7Bbmatrix%7D)
 
 Now we want to figure out the first three rows of the following state space equation:
 ![ssEquation](https://latex.codecogs.com/gif.latex?%5Cdot%7BX%7D%20%3D%20AX&plus;BU),
-
 where A is a 14 by 14 matrix.
 
 #### 3.2. Quiz 2
 - Complete the accleration part of the state-space equation.
+
+Now we want to figure out the row number 4 to 6 of the following state space equation:
+
 #### 3.3. Quiz 3
 - Describe a numerical integration method to figure out the next state
+
 #### References
 - Michael, N., et al. (2010). "The grasp multiple micro-uav testbed." IEEE Robotics & Automation Magazine 17(3): 56-65.
 
