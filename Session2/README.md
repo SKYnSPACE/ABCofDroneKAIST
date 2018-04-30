@@ -22,8 +22,8 @@
 **This section describes the preparation of software for the hands-on session.**
 
 #### 1.1. Install the Arduino Software on PCs
-[ARDUINO IDE](https://www.arduino.cc/en/Main/Software) is an Integrated Development Environment (IDE) to write acode and upload it to the board. 
-Please download and install the software depending on the operating system you ouse.
+[ARDUINO IDE](https://www.arduino.cc/en/Main/Software) is an Integrated Development Environment (IDE) to write a code and upload it to the Arduino board. 
+Please download and install the software depending on the operating system you use.
 
 #### 1.2. (Optional) for Arduino Counterfeit Products.
 If you have a [Counterfeit Arduino](https://www.arduino.cc/en/Products/Counterfeit) you may need to install FTDI (CH340/CH341) USB to Serial interface.
