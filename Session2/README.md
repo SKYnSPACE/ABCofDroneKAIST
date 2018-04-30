@@ -26,7 +26,7 @@
 Please download and install the software depending on the operating system you ouse.
 
 #### 1.2. (Optional) for Arduino Counterfeit Products.
-If you have a [Counterfeit Arduino](https://www.arduino.cc/en/Products/Counterfeit) you might need to install FTDI (CH340/CH341) USB to Serial interface.
+If you have a [Counterfeit Arduino](https://www.arduino.cc/en/Products/Counterfeit) you may need to install FTDI (CH340/CH341) USB to Serial interface.
 Please visit the following [Website](http://www.ftdichip.com/Drivers/VCP.htm) for the Virtual COM Port (VCP) drivers.
 
 ### 2. Hardware Verifications
