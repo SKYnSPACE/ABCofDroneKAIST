@@ -40,6 +40,9 @@
 &nbsp;&nbsp; **In this section, you can describe the kinematics of a quadcopter UAV by completing the following quizzes.**
 
 &nbsp;&nbsp; Quizzes are located in the class file [Drone.m](https://github.com/SKYnSPACE/ABCofDroneKAIST/tree/master/Session2/Hands-on/MATLAB/lib).
+
+&nbsp;&nbsp; After you solve the three quizzes, run the file [main.m](https://github.com/SKYnSPACE/ABCofDroneKAIST/tree/master/Session2/Hands-on/MATLAB) to monitor the motion of a drone. If you done it correctly, you will see the drone falling while rotating like a pinwheel. In the session 3, you will figure out how to design a proper controller that can maneuver a drone at the desired state.
+
 #### 3.1. Quiz 1
 - Complete the velocity part of the state-space equation.
 
@@ -50,12 +53,15 @@
 &nbsp;&nbsp; Now we want to figure out the first three rows of the following state space equation:
 
 &nbsp;&nbsp; ![ssEquation](https://latex.codecogs.com/gif.latex?%5Cdot%7BX%7D%20%3D%20AX&plus;BU),
-where A is a 14 by 14 matrix.
+where A is a 13 by 13 matrix, B = 0, and U = 0 for today (no control inputs).
 
 #### 3.2. Quiz 2
 - Complete the accleration part of the state-space equation.
 
 &nbsp;&nbsp; Now we want to figure out the row number 4 to 6 of the following state space equation:
+
+&nbsp;&nbsp; ![ssEquation](https://latex.codecogs.com/gif.latex?%5Cdot%7BX%7D%20%3D%20AX&plus;BU),
+where A is a 13 by 13 matrix, B = 0, and U = 0 for today (no control inputs).
 
 #### 3.3. Quiz 3
 - Describe a numerical integration method to figure out the next state
