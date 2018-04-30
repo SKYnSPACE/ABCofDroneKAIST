@@ -68,7 +68,7 @@ where A is a 13 by 13 matrix, B = 0, and U = 0 for today (no control inputs).
 
 &nbsp;&nbsp; You can use the Euler method to update the next state:
 
-&nbsp;&nbsp; ![Euler](https://latex.codecogs.com/gif.latex?X_%7Bt&plus;1%7D%20%3D%20X_%7Bt%7D%20&plus;%20%5Cdot%7BX%7Ddt)
+&nbsp;&nbsp; ![Euler](https://latex.codecogs.com/gif.latex?X_%7Bt&plus;1%7D%20%3D%20X_%7Bt%7D%20&plus;%20%5Cdot%7BX%7D_%7Bt%7Ddt)
 
 #### References
 - Michael, N., et al. (2010). "The grasp multiple micro-uav testbed." IEEE Robotics & Automation Magazine 17(3): 56-65.
