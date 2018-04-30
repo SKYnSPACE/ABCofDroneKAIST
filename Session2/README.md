@@ -45,10 +45,11 @@
 
 &nbsp;&nbsp; We have built a state-space equation with the following 14 states:
 
-![states](https://latex.codecogs.com/gif.latex?X%20%3D%20%5Cbegin%7Bbmatrix%7Dx%20%5C%5C%20y%5C%5C%20z%5C%5C%20%5Cdot%7Bx%7D%5C%5C%20%5Cdot%7By%7D%5C%5C%20%5Cdot%7Bz%7D%5C%5C%20q_%7B1%7D%5C%5C%20q_%7B2%7D%5C%5C%20q_%7B3%7D%5C%5C%20q_%7B4%7D%5C%5C%20p%5C%5C%20q%5C%5C%20r%5Cend%7Bbmatrix%7D)
+&nbsp;&nbsp; ![states](https://latex.codecogs.com/gif.latex?X%20%3D%20%5Cbegin%7Bbmatrix%7Dx%20%5C%5C%20y%5C%5C%20z%5C%5C%20%5Cdot%7Bx%7D%5C%5C%20%5Cdot%7By%7D%5C%5C%20%5Cdot%7Bz%7D%5C%5C%20q_%7B1%7D%5C%5C%20q_%7B2%7D%5C%5C%20q_%7B3%7D%5C%5C%20q_%7B4%7D%5C%5C%20p%5C%5C%20q%5C%5C%20r%5Cend%7Bbmatrix%7D)
 
-&nbsp;&nbsp; Now we want to figure out the first three rows of the following state space equation:\
-![ssEquation](https://latex.codecogs.com/gif.latex?%5Cdot%7BX%7D%20%3D%20AX&plus;BU),
+&nbsp;&nbsp; Now we want to figure out the first three rows of the following state space equation:
+
+&nbsp;&nbsp; ![ssEquation](https://latex.codecogs.com/gif.latex?%5Cdot%7BX%7D%20%3D%20AX&plus;BU),
 where A is a 14 by 14 matrix.
 
 #### 3.2. Quiz 2
@@ -59,8 +60,9 @@ where A is a 14 by 14 matrix.
 #### 3.3. Quiz 3
 - Describe a numerical integration method to figure out the next state
 
-&nbsp;&nbsp; You can use the Euler method to update the next state:\
-![Euler](https://latex.codecogs.com/gif.latex?X_%7Bt&plus;1%7D%20%3D%20X_%7Bt%7D%20&plus;%20%5Cfrac%7BdX%7D%7Bdt%7Ddt)
+&nbsp;&nbsp; You can use the Euler method to update the next state:
+
+&nbsp;&nbsp; ![Euler](https://latex.codecogs.com/gif.latex?X_%7Bt&plus;1%7D%20%3D%20X_%7Bt%7D%20&plus;%20%5Cfrac%7BdX%7D%7Bdt%7Ddt)
 
 #### References
 - Michael, N., et al. (2010). "The grasp multiple micro-uav testbed." IEEE Robotics & Automation Magazine 17(3): 56-65.
