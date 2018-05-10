@@ -100,16 +100,16 @@ classdef Drone < handle
 
             %%%%%%%%%%%%%%%%%%%%%%%%%%% QUIZ #0 %%%%%%%%%%%%%%%%%%%%%%%%%%%
             % Find proper gains for the controller.
-            obj.KP_p=0.0;
-            obj.KI_p=0.0;
-            obj.KD_p=0.0;
+            obj.KP_p=0.008;
+            obj.KI_p=0.004;
+            obj.KD_p=0.001;
             
-            obj.KP_q=0.0;
-            obj.KI_q=0.0;
-            obj.KD_q=0.0;
+            obj.KP_q=obj.KP_p;
+            obj.KI_q=obj.KI_p;
+            obj.KD_q=obj.KD_p;
             
-            obj.KP_r=0.0;
-            obj.KI_r=0.0;
+            obj.KP_r=0.01;
+            obj.KI_r=0.006;
             obj.KD_r=0.0;
             %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
@@ -182,7 +182,17 @@ classdef Drone < handle
             % that produces RPY moments. Position of the drone may change
             % since we are dealing with the attitude of the drone only.
             % (e.g.) obj.M(1,1) = ~~~; obj.M(2,1) = ~~~; obj.M(3,1) = ~~~; 
-
+            obj.M(1,1) = (obj.KP_p * obj.p_err + ...
+                          obj.KI_p * (obj.p_err_sum) + ...
+                          obj.KD_p * (obj.p_err - obj.p_err_prev));
+                      
+            obj.M(2,1) = (obj.KP_q * obj.q_err + ...
+                          obj.KI_q * (obj.q_err_sum) + ...
+                          obj.KD_q * (obj.q_err - obj.q_err_prev));
+                      
+            obj.M(3,1) = (obj.KP_r * obj.r_err + ...
+                          obj.KI_r * (obj.r_err_sum) + ...
+                          obj.KD_r * (obj.r_err - obj.r_err_prev));
             %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%                      
             
             obj.p_err_prev = obj.p_err;
