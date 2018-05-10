@@ -30,7 +30,7 @@ drone1 = Drone(drone1_initStates, drone1_initInputs, drone1_params, simulationTi
 %% INIT. FIG.
 fig1 = figure('pos',[10 10 1000 1000]);
 h = gca;
-%view(3);
+view(3);
 % view([90 0])   % To check phi (roll attitude) only
 % view([0 0])    % To check theta (pitch attitude) only
 % view([270 90]) % Top view
