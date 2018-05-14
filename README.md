@@ -10,10 +10,12 @@ Introduction to multi-copter UAVs.
 Understanding of the quadcopter dynamics and simulation.
 
 ## Session3 (10.MAY.2018)
+Understanding of the quadcopter PID controller.
 
-## Session4 (TBD)
+## Session4 (14.MAY.2018)
+Quadcopter manufacturing and system configuration test using Arduino.
 
-## Session5 (TBD)
+## Session5 (21.MAY.2018)
 
 2018년 KAIST 항공우주공학과 학부생 소규모 실습 프로젝트의 일환으로 작성된 코드입니다.
 
