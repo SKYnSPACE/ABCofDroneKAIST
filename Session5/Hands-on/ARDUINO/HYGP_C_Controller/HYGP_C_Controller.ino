@@ -114,18 +114,18 @@ void setup() {
     Motor.outputPWM3 = PWM_LOW;
     Motor.outputPWM4 = PWM_LOW;
     
-    Sensor.Receiver.channel1Center = 1520;
-    Sensor.Receiver.channel2Center = 1520;
-    Sensor.Receiver.channel3Center = 1520;
-    Sensor.Receiver.channel4Center = 1520;
-    Sensor.Receiver.channel1Min = 1100;
-    Sensor.Receiver.channel2Min = 1940;
-    Sensor.Receiver.channel3Min = 1100;
-    Sensor.Receiver.channel4Min = 1100;
-    Sensor.Receiver.channel1Max = 1940;
-    Sensor.Receiver.channel2Max = 1100;
-    Sensor.Receiver.channel3Max = 1940;
-    Sensor.Receiver.channel4Max = 1940;
+    Sensor.Receiver.channel1Center = 1500;
+    Sensor.Receiver.channel2Center = 1500;
+    Sensor.Receiver.channel3Center = 1500;
+    Sensor.Receiver.channel4Center = 1500;
+    Sensor.Receiver.channel1Min = 1000;
+    Sensor.Receiver.channel2Min = 2000;
+    Sensor.Receiver.channel3Min = 1000;
+    Sensor.Receiver.channel4Min = 1000;
+    Sensor.Receiver.channel1Max = 2000;
+    Sensor.Receiver.channel2Max = 1000;
+    Sensor.Receiver.channel3Max = 2000;
+    Sensor.Receiver.channel4Max = 2000;
 
     Sensor.Receiver.deadBand = 8;
 
@@ -279,9 +279,9 @@ void loop()
   }
   
   if((Flags.flightMode == 0) &&
-     (Sensor.Receiver.channel3 == 1080) && 
-     (Sensor.Receiver.channel2 == 1920) &&
-     ((Sensor.Receiver.channel1 == 1080)||(Sensor.Receiver.channel1 == 1920)))
+     (Sensor.Receiver.channel3 == 1000) && 
+     (Sensor.Receiver.channel2 == 2000) &&
+     ((Sensor.Receiver.channel1 == 1000)||(Sensor.Receiver.channel1 == 2000)))
   {
     Motor.outputPWM1 = 1150;
     Motor.outputPWM2 = 1150;
@@ -291,9 +291,9 @@ void loop()
   }
 
   if((Flags.flightMode == 1) && (stanbyTimer + 1000 < millis()) &&
-     (Sensor.Receiver.channel3 == 1080) && 
-     (Sensor.Receiver.channel2 == 1920) &&
-     ((Sensor.Receiver.channel1 == 1080)||(Sensor.Receiver.channel1 == 1920)))
+     (Sensor.Receiver.channel3 == 1000) && 
+     (Sensor.Receiver.channel2 == 2000) &&
+     ((Sensor.Receiver.channel1 == 1000)||(Sensor.Receiver.channel1 == 2000)))
   {
     Motor.outputPWM1 = PWM_LOW;
     Motor.outputPWM2 = PWM_LOW;
@@ -311,7 +311,7 @@ void loop()
     Flags.flightMode = 0;
   }
   
-  if((Flags.flightMode == 2) && (Sensor.Receiver.channel3 <= 1088))
+  if((Flags.flightMode == 2) && (Sensor.Receiver.channel3 <= 1020))
   {
     Motor.outputPWM1 = 1150;
     Motor.outputPWM2 = 1150;
@@ -330,7 +330,7 @@ void loop()
   }
 
   if(((Flags.flightMode == 1) || (Flags.flightMode == 2)) && 
-     (Sensor.Receiver.channel3 > 1088))
+     (Sensor.Receiver.channel3 > 1020))
   {
     Flags.flightMode = 3;
   }
@@ -355,7 +355,7 @@ void loop()
     */
   }
   
-  if((Flags.flightMode == 3) && (Sensor.Receiver.channel3 <= 1088))
+  if((Flags.flightMode == 3) && (Sensor.Receiver.channel3 <= 1020))
   {
     Flags.flightMode = 2;
   }
